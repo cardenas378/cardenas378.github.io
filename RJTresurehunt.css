@@ -1,0 +1,86 @@
+body {
+    background-image: url(https://www.maxpixel.net/static/photo/1x/Fantasy-Ship-Sea-Pirates-Night-Moon-Red-Strom-2202910.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* cursor: pointer; */
+    cursor: url("sword3.png"), auto;
+}
+
+h1, h3 {
+    color: #dbb946;
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    font-size: 75px;
+}
+
+h3{
+    font-size: 50px;
+}
+
+ol {
+    color: #dbb946;
+    text-align: left;
+    font-family: 'Pirata One', cursive;
+    font-size: 24.75px
+}
+
+table {
+    color: white;
+    /* margin-left:300px;
+    margin-right:300px; */
+    text-align: center;
+}
+#tablediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+td {
+    border: 2px dotted #dbb946;
+    height: 125px;
+    width: 125px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: auto;
+
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes shake {
+0% { transform: translate(1px, 1px) rotate(0deg); }
+10% { transform: translate(-1px, -2px) rotate(-1deg); }
+20% { transform: translate(-3px, 0px) rotate(1deg); }
+30% { transform: translate(3px, 2px) rotate(0deg); }
+40% { transform: translate(1px, -1px) rotate(1deg); }
+50% { transform: translate(-1px, 2px) rotate(-1deg); }
+60% { transform: translate(-3px, 1px) rotate(0deg); }
+70% { transform: translate(3px, 1px) rotate(-1deg); }
+80% { transform: translate(-1px, -1px) rotate(1deg); }
+90% { transform: translate(1px, 2px) rotate(0deg); }
+100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#counter {
+    color: #e36a00;
+}
+
+footer {
+    color: #f70248;
+}
